@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+
+right{
+    float: right;
+}
+left{
+    float: left;
+}
+
+img{
+    max-width: 100%;
+    
+}
+
+a{
+    text-decoration: n;
+
+}
+
+.mid-content{
+    max-width: 1300px;
+    margin: auto;
+}
+
+body,h1,h2,h3,h4,h5,h6,p,a,span{
+    font-family: 'Work Sans', sans-serif;
+}
